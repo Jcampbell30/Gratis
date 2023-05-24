@@ -1,5 +1,5 @@
 CREATE DATABASE gratis_db;
-
+use gratis_db;
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     first_name VARCHAR(100) NOT NULL,
